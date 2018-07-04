@@ -7,7 +7,9 @@ We've added the following features so Darknet outputs JSON using MQTT:
 
 ./darknet detector demo cfg/coco.data cfg/yolov3.cfg yolov3.weights yourvideo.mp4 -enable_mqtt -prefix 1 -vout resultsvideo.avi
 
+-enable_mqtt Enables the MQTT server and it outputs the JSON regarding the bounding boxes and labels/
 
+-vout yourresultvideo.avi - create a results video that combines the bounding boxes and labels.
 
 # Instalation #
 
